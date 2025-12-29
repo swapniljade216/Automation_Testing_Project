@@ -69,7 +69,7 @@ public class TestCases extends StepBase {
 
 
 		String title = driver.getTitle();
-		//assertEquals(title, true);
+		//assertEquals(title,    true);
 		String url = driver.getCurrentUrl();
 		System.out.println("Current Title of RegisterPage :-      "+title);
 		System.out.println("Current URL of RegisterPage :-         "+url);
